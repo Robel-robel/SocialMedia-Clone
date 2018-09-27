@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="Style2.css">
+    <title>Just social</title>
+</head>
+
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">View Profile</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <!-- Use any element to open the sidenav -->
+    <span onclick="openNav()">open</span>
+
+    <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+    <div id="main">
+        ...
+    </div>
+    <header>
+        <center>
+            <h1 class="title">NEWS FEED</h1>
+        </center>
+    </header>
+    <main>
+        <form class="theForm">
+            <!-- <label for="name">Enter Your Name Below</label>
+            <input class="u-full-width" type="text" id="name" name="name"> -->
+            <label for="theContent">Your Post</label>
+            <textarea class="u-full-width" type="text" id="content" placeholder="What's On Your Mind?"></textarea>
+            <button class="button-primary">POST</button>
+        </form>
+
+
+    </main>
+    <script src="client.js"></script>
+
+</body>
+
+</html>
